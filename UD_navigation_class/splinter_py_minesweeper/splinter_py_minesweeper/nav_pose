@@ -1,0 +1,5 @@
+'Navigate to' - go to the base at the end of the task
+ros2 action send_goal /navigate_to_position irobot_create_msgs/action/NavigateToPosition "{achieve_goal_heading: true,goal_pose:{pose:{position:{x: 0,y: 0.0,z: 0.0}, orientation:{x: 0.0,y: 0.0, z: 0.0, w: 1.0}}}}"
+
+'Drive this distance for hitting the ball'
+
